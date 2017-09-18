@@ -1,4 +1,4 @@
-package exercises.DatesTimes;
+package exercises.datestimes;
 
 import java.time.*;
 import java.time.format.DateTimeFormatter;
