@@ -6,7 +6,7 @@ import java.sql.Statement;
 
 public class SetupMySqlDatabase {
     public static void main(String[] args) throws Exception {
-        String url = "jdbc:mysql://localhost/zoo?user=root&password=1234";
+        String url = "jdbc:mysql://localhost/zoo?user=root&password=root";
         try (Connection conn = DriverManager.getConnection(url);
              Statement stmt = conn.createStatement()) {
             stmt.executeUpdate("CREATE TABLE species ("
