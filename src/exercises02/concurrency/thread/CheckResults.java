@@ -1,4 +1,4 @@
-package exercises02.concurrency.Thread;
+package exercises02.concurrency.thread;
 
 public class CheckResults {
     private static int counter = 0;
