@@ -27,6 +27,6 @@ public class Program {
         session.getTransaction().commit();
 
         session.close();
-//        HibernateUtilities.getSessionFactory().close();
+        HibernateUtilities.getSessionFactory().close();
     }
 }
